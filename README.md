@@ -78,47 +78,48 @@
 ### 1. Organization List
 แสดงรายการหน่วยงานสำหรับจัดกลุ่มและค้นหาข้อมูลหม้อแปลงตามหน่วยงานที่รับผิดชอบ
 
-![Organization List](01-organization-list.jpg)
+<img src="01-organization-list.jpg" width="300">
 
 ### 2. Transformer List
 แสดงรายการหม้อแปลง พร้อมข้อมูลเบื้องต้น เช่น ขนาดหม้อแปลง ตำแหน่งติดตั้ง และหน่วยงานที่รับผิดชอบ
 
-![Transformer List](02-transformer-list.jpg)
+<img src="02-transformer-list.jpg" width="300">
 
 ### 3. Transformer Details
 แสดงรายละเอียดของหม้อแปลง เช่น รูปภาพ หน่วยงานที่รับผิดชอบ พิกัด GPS กำลังหม้อแปลง และข้อมูลการติดตั้ง
 
-![Transformer Details](03-transformer-details.jpg)
+<img src="03-transformer-details.jpg" width="300">
 
 ### 4. Location Navigation
 รองรับการนำทางจากตำแหน่งปัจจุบันไปยังพื้นที่ติดตั้งหม้อแปลงผ่าน Google Maps
 
-![Location Navigation](04-location-navigation.jpg)
+<img src="04-location-navigation.jpg" width="300">
 
 ### 5. Transformer Map
 แสดงตำแหน่งหม้อแปลงบนแผนที่ เพื่อช่วยค้นหาและตรวจสอบตำแหน่งของหม้อแปลงในพื้นที่
 
-![Transformer Map](05-transformer-map.jpg)
+<img src="05-transformer-map.jpg" width="300">
 
 ### 6. Inspection Form
 แบบฟอร์มดิจิทัลสำหรับบันทึกข้อมูลการตรวจสอบหม้อแปลงและข้อมูลที่เกี่ยวข้องผ่านอุปกรณ์มือถือ
 
-![Inspection Form](06-inspection-form.jpg)
+<img src="06-inspection-form.jpg" width="300">
 
 ### 7. Installation Location List
 แสดงรายการตำแหน่งติดตั้ง เพื่อช่วยเลือกและค้นหาหม้อแปลงตามพื้นที่หรือจุดติดตั้ง
 
-![Installation Location List](07-installation-location-list.jpg)
+<img src="07-installation-location-list.jpg" width="300">
 
 ### 8. Inspection Report
 ตัวอย่างรายงานผลการตรวจสอบและบำรุงรักษาหม้อแปลงที่สร้างจากข้อมูลในระบบ
 
-![Inspection Report](08-inspection-report.jpg)
+<img src="08-inspection-report.jpg" width="500">
 
 ### 9. Transformer Dashboard
 Dashboard สำหรับสรุปและแสดงข้อมูลหม้อแปลง เช่น ลักษณะการติดตั้งและข้อมูลจำแนกตามผลิตภัณฑ์หรือยี่ห้อ
 
-![Transformer Dashboard](09-transformer-dashboard.jpg)
+<img src="09-transformer-dashboard.jpg" width="300">
+
 
 > **Note:** ข้อมูลภายในหน่วยงาน ข้อมูลพิกัด และข้อมูลที่มีความละเอียดอ่อน
 > ถูกนำออกหรือปกปิดก่อนนำมาใช้เพื่อแสดงผลงานใน Portfolio
