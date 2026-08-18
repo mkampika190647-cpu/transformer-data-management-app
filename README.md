@@ -67,13 +67,60 @@
 โปสเตอร์สรุปภาพรวมของโครงงาน แนวทางการพัฒนา ฟังก์ชันการทำงาน
 และเครื่องมือที่ใช้ในการพัฒนาระบบ
 
-![Project Poster](poster/transformer-data-management-poster.jpg)
+📄 [View Project Poster (PDF)](transformer-data-management-poster.pdf)
 
 ## Application Screenshots
 
-ตัวอย่างหน้าจอของระบบ เช่น การจัดการข้อมูลหม้อแปลง
-การค้นหาตำแหน่งและนำทาง แบบฟอร์มการตรวจสอบและบำรุงรักษา
-รายงาน PDF และ Dashboard
+ตัวอย่างหน้าจอการทำงานของระบบ ตั้งแต่การจัดการข้อมูลหม้อแปลง
+การตรวจสอบตำแหน่ง การนำทาง การบันทึกข้อมูลภาคสนาม
+ไปจนถึงการสร้างรายงานและ Dashboard
+
+### 1. Organization List
+แสดงรายการหน่วยงานสำหรับจัดกลุ่มและค้นหาข้อมูลหม้อแปลงตามหน่วยงานที่รับผิดชอบ
+
+![Organization List](01-organization-list.jpg)
+
+### 2. Transformer List
+แสดงรายการหม้อแปลง พร้อมข้อมูลเบื้องต้น เช่น ขนาดหม้อแปลง ตำแหน่งติดตั้ง และหน่วยงานที่รับผิดชอบ
+
+![Transformer List](02-transformer-list.jpg)
+
+### 3. Transformer Details
+แสดงรายละเอียดของหม้อแปลง เช่น รูปภาพ หน่วยงานที่รับผิดชอบ พิกัด GPS กำลังหม้อแปลง และข้อมูลการติดตั้ง
+
+![Transformer Details](03-transformer-details.jpg)
+
+### 4. Location Navigation
+รองรับการนำทางจากตำแหน่งปัจจุบันไปยังพื้นที่ติดตั้งหม้อแปลงผ่าน Google Maps
+
+![Location Navigation](04-location-navigation.jpg)
+
+### 5. Transformer Map
+แสดงตำแหน่งหม้อแปลงบนแผนที่ เพื่อช่วยค้นหาและตรวจสอบตำแหน่งของหม้อแปลงในพื้นที่
+
+![Transformer Map](05-transformer-map.jpg)
+
+### 6. Inspection Form
+แบบฟอร์มดิจิทัลสำหรับบันทึกข้อมูลการตรวจสอบหม้อแปลงและข้อมูลที่เกี่ยวข้องผ่านอุปกรณ์มือถือ
+
+![Inspection Form](06-inspection-form.jpg)
+
+### 7. Installation Location List
+แสดงรายการตำแหน่งติดตั้ง เพื่อช่วยเลือกและค้นหาหม้อแปลงตามพื้นที่หรือจุดติดตั้ง
+
+![Installation Location List](07-installation-location-list.jpg)
+
+### 8. Inspection Report
+ตัวอย่างรายงานผลการตรวจสอบและบำรุงรักษาหม้อแปลงที่สร้างจากข้อมูลในระบบ
+
+![Inspection Report](08-inspection-report.jpg)
+
+### 9. Transformer Dashboard
+Dashboard สำหรับสรุปและแสดงข้อมูลหม้อแปลง เช่น ลักษณะการติดตั้งและข้อมูลจำแนกตามผลิตภัณฑ์หรือยี่ห้อ
+
+![Transformer Dashboard](09-transformer-dashboard.jpg)
 
 > **Note:** ข้อมูลภายในหน่วยงาน ข้อมูลพิกัด และข้อมูลที่มีความละเอียดอ่อน
 > ถูกนำออกหรือปกปิดก่อนนำมาใช้เพื่อแสดงผลงานใน Portfolio
+> **Note:** ข้อมูลภายในหน่วยงาน ข้อมูลพิกัด และข้อมูลที่มีความละเอียดอ่อน
+> ถูกนำออกหรือปกปิดก่อนนำมาใช้เพื่อแสดงผลงานใน Portfolioอแสดงผลงานใน Portfolio
