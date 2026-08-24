@@ -7,14 +7,9 @@
 
 ## Project Overview
 
-โครงงานนี้เป็นการพัฒนาแอปพลิเคชันสำหรับจัดเก็บและบริหารจัดการข้อมูลหม้อแปลงไฟฟ้า
-เพื่อรวบรวมข้อมูลทรัพย์สิน การตรวจสอบ และการบำรุงรักษาให้อยู่ในระบบเดียวกัน
-ช่วยให้สามารถค้นหา ตรวจสอบ อัปเดต และติดตามข้อมูลได้สะดวกมากขึ้น
+โครงงานนี้เป็นการพัฒนาแอปพลิเคชันสำหรับจัดเก็บและบริหารจัดการข้อมูลหม้อแปลงไฟฟ้า เพื่อรวบรวมข้อมูลทรัพย์สิน การตรวจสอบ และการบำรุงรักษาให้อยู่ในระบบเดียวกัน ช่วยให้สามารถค้นหา ตรวจสอบ อัปเดต และติดตามข้อมูลได้สะดวกมากขึ้น
 
-ระบบพัฒนาด้วย AppSheet โดยใช้ Google Sheets เป็นแหล่งจัดเก็บข้อมูล
-พร้อมรองรับการใช้งานภาคสนามผ่านพิกัด GPS และการนำทางด้วย Google Maps
-รวมถึงการบันทึกข้อมูลผ่านแบบฟอร์มดิจิทัล การสร้างรายงาน PDF อัตโนมัติ
-และ Dashboard สำหรับติดตามข้อมูล
+ระบบพัฒนาด้วย AppSheet โดยใช้ Google Sheets เป็นแหล่งจัดเก็บข้อมูล รองรับการใช้งานภาคสนามผ่านพิกัด GPS และการนำทางด้วย Google Maps รวมถึงการบันทึกข้อมูลผ่านแบบฟอร์มดิจิทัล การสร้างรายงาน PDF อัตโนมัติ และ Dashboard สำหรับติดตามข้อมูล
 
 ## Key Features
 
@@ -23,104 +18,151 @@
 - แสดงพิกัด GPS และรองรับการนำทางไปยังตำแหน่งหม้อแปลง
 - บันทึกข้อมูลการตรวจสอบและการบำรุงรักษาผ่านแบบฟอร์มดิจิทัล
 - รองรับการบันทึกข้อมูลผ่านโทรศัพท์มือถือสำหรับการปฏิบัติงานภาคสนาม
-- สร้างรายงาน PDF สำหรับข้อมูลการตรวจสอบและการบำรุงรักษาโดยอัตโนมัติ
-- แสดงข้อมูลผ่าน Dashboard เพื่อช่วยในการติดตามและบริหารจัดการข้อมูล
+- สร้างรายงาน PDF จากข้อมูลการตรวจสอบและการบำรุงรักษา
+- แสดงข้อมูลผ่าน Dashboard เพื่อช่วยในการติดตามข้อมูล
 - รองรับการเข้าถึงระบบผ่าน QR Code
 
 ## Technologies Used
 
 - AppSheet
-- Google Sheets / Excel
+- Google Sheets
+- Microsoft Excel
 - Google Maps
 - QR Code
 - Data Management
 
 ## Data Preparation
 
-รวบรวมและเตรียมข้อมูลหม้อแปลงก่อนนำเข้าสู่ระบบ
-โดยตรวจสอบความถูกต้อง ลบข้อมูลซ้ำ และจัดรูปแบบตารางให้เหมาะสมกับการใช้งาน
-เป็นฐานข้อมูล จากนั้นนำข้อมูลจาก Excel ไปยัง Google Sheets
-เพื่อใช้เป็นแหล่งข้อมูลสำหรับระบบ AppSheet
+รวบรวมและเตรียมข้อมูลหม้อแปลงก่อนนำเข้าสู่ระบบ โดยตรวจสอบความถูกต้อง ลบข้อมูลซ้ำ และจัดรูปแบบตารางให้เหมาะสมกับการใช้งานเป็นฐานข้อมูล
+
+ข้อมูลเดิมจาก Excel ถูกจัดเตรียมและนำเข้าสู่ Google Sheets เพื่อใช้เป็นแหล่งข้อมูลหลักสำหรับระบบ AppSheet
 
 ## System Workflow
 
 1. เข้าสู่ระบบและเลือกหน่วยงาน
 2. ค้นหาและเลือกหม้อแปลงที่ต้องการ
 3. ตรวจสอบรายละเอียดและตำแหน่งติดตั้ง
-4. ใช้ GPS / Google Maps เพื่อนำทางไปยังพื้นที่จริง
+4. ใช้ GPS และ Google Maps เพื่อนำทางไปยังพื้นที่จริง
 5. บันทึกข้อมูลการตรวจสอบหรือการบำรุงรักษาผ่านโทรศัพท์มือถือ
-6. จัดเก็บและเชื่อมโยงประวัติข้อมูล
-7. สร้างรายงาน PDF อัตโนมัติ
-8. ติดตามข้อมูลผ่าน Dashboard
+6. จัดเก็บและเชื่อมโยงประวัติการตรวจสอบ
+7. สร้างรายงาน PDF จากข้อมูลในระบบ
+8. ติดตามและสรุปข้อมูลผ่าน Dashboard
 
 ## My Responsibilities
 
-- เตรียม ตรวจสอบ และจัดโครงสร้างข้อมูลหม้อแปลงสำหรับนำไปพัฒนาระบบ
+- เตรียม ตรวจสอบ และจัดโครงสร้างข้อมูลหม้อแปลงก่อนนำเข้าสู่ระบบ
 - พัฒนาแอปพลิเคชันจัดการข้อมูลด้วย AppSheet และ Google Sheets
 - เชื่อมโยงพิกัด GPS และการนำทางด้วย Google Maps
 - พัฒนาแบบฟอร์มดิจิทัลสำหรับการตรวจสอบและการบำรุงรักษา
-- พัฒนาระบบสร้างรายงาน PDF อัตโนมัติ
+- พัฒนาระบบสร้างรายงาน PDF จากข้อมูลที่บันทึกในระบบ
 - พัฒนา Dashboard สำหรับติดตามและแสดงผลข้อมูล
 
 ## Project Poster
 
-โปสเตอร์สรุปภาพรวมของโครงงาน แนวทางการพัฒนา ฟังก์ชันการทำงาน
-และเครื่องมือที่ใช้ในการพัฒนาระบบ
+โปสเตอร์สรุปภาพรวมของโครงงาน แนวทางการพัฒนา ฟังก์ชันการทำงาน และเครื่องมือที่ใช้ในการพัฒนาระบบ
 
 📄 [View Project Poster (PDF)](transformer-data-management-poster.pdf)
 
 ## Application Screenshots
 
-ตัวอย่างหน้าจอการทำงานของระบบ ตั้งแต่การจัดการข้อมูลหม้อแปลง
-การตรวจสอบตำแหน่ง การนำทาง การบันทึกข้อมูลภาคสนาม
-ไปจนถึงการสร้างรายงานและ Dashboard
+ตัวอย่างหน้าจอการทำงานของระบบ ตั้งแต่การค้นหาและตรวจสอบข้อมูลหม้อแปลง การดูตำแหน่งและการนำทาง การบันทึกข้อมูลภาคสนาม ไปจนถึงการสร้างรายงานและ Dashboard
 
 ### 1. Organization List
+
 แสดงรายการหน่วยงานสำหรับจัดกลุ่มและค้นหาข้อมูลหม้อแปลงตามหน่วยงานที่รับผิดชอบ
 
-<img src="01-organization-list.jpg" width="300">
+<p align="center">
+  <img src="screenshots/01-organization-list.jpg" width="300" alt="Organization List">
+</p>
 
 ### 2. Transformer List
+
 แสดงรายการหม้อแปลง พร้อมข้อมูลเบื้องต้น เช่น ขนาดหม้อแปลง ตำแหน่งติดตั้ง และหน่วยงานที่รับผิดชอบ
 
-<img src="02-transformer-list.jpg" width="300">
+<p align="center">
+  <img src="screenshots/02-transformer-list.jpg" width="300" alt="Transformer List">
+</p>
 
 ### 3. Transformer Details
+
 แสดงรายละเอียดของหม้อแปลง เช่น รูปภาพ หน่วยงานที่รับผิดชอบ พิกัด GPS กำลังหม้อแปลง และข้อมูลการติดตั้ง
 
-<img src="03-transformer-details.jpg" width="300">
+<p align="center">
+  <img src="screenshots/03-transformer-details.jpg" width="300" alt="Transformer Details">
+</p>
 
 ### 4. Location Navigation
+
 รองรับการนำทางจากตำแหน่งปัจจุบันไปยังพื้นที่ติดตั้งหม้อแปลงผ่าน Google Maps
 
-<img src="04-location-navigation.jpg" width="300">
+<p align="center">
+  <img src="screenshots/04-location-navigation.jpg" width="300" alt="Location Navigation">
+</p>
 
 ### 5. Transformer Map
+
 แสดงตำแหน่งหม้อแปลงบนแผนที่ เพื่อช่วยค้นหาและตรวจสอบตำแหน่งของหม้อแปลงในพื้นที่
 
-<img src="05-transformer-map.jpg" width="300">
+<p align="center">
+  <img src="screenshots/05-transformer-map.jpg" width="300" alt="Transformer Map">
+</p>
 
 ### 6. Inspection Form
+
 แบบฟอร์มดิจิทัลสำหรับบันทึกข้อมูลการตรวจสอบหม้อแปลงและข้อมูลที่เกี่ยวข้องผ่านอุปกรณ์มือถือ
 
-<img src="06-inspection-form.jpg" width="300">
+<p align="center">
+  <img src="screenshots/06-inspection-form.jpg" width="300" alt="Inspection Form">
+</p>
 
 ### 7. Installation Location List
+
 แสดงรายการตำแหน่งติดตั้ง เพื่อช่วยเลือกและค้นหาหม้อแปลงตามพื้นที่หรือจุดติดตั้ง
 
-<img src="07-installation-location-list.jpg" width="300">
+<p align="center">
+  <img src="screenshots/07-installation-location-list.jpg" width="300" alt="Installation Location List">
+</p>
 
 ### 8. Inspection Report
-ตัวอย่างรายงานผลการตรวจสอบและบำรุงรักษาหม้อแปลงที่สร้างจากข้อมูลในระบบ
 
-<img src="08-inspection-report.jpg" width="500">
+ตัวอย่างรายงานผลการตรวจสอบและบำรุงรักษาหม้อแปลงที่สร้างจากข้อมูลที่บันทึกในระบบ
+
+<p align="center">
+  <img src="screenshots/08-inspection-report.jpg" width="500" alt="Inspection Report">
+</p>
 
 ### 9. Transformer Dashboard
-Dashboard สำหรับสรุปและแสดงข้อมูลหม้อแปลง เช่น ลักษณะการติดตั้งและข้อมูลจำแนกตามผลิตภัณฑ์หรือยี่ห้อ
 
-<img src="09-transformer-dashboard.jpg" width="300">
+Dashboard สำหรับสรุปและแสดงข้อมูลหม้อแปลง เช่น ลักษณะการติดตั้ง และข้อมูลจำแนกตามผลิตภัณฑ์หรือยี่ห้อ
 
+<p align="center">
+  <img src="screenshots/09-transformer-dashboard.jpg" width="500" alt="Transformer Dashboard">
+</p>
 
-> **Note:** ข้อมูลภายในหน่วยงาน ข้อมูลพิกัด และข้อมูลที่มีความละเอียดอ่อน
-> ถูกนำออกหรือปกปิดก่อนนำมาใช้เพื่อแสดงผลงานใน Portfolio
+## Project Structure
 
+```text
+transformer-data-management-app/
+│
+├── README.md
+├── transformer-data-management-poster.pdf
+│
+└── screenshots/
+    ├── 01-organization-list.jpg
+    ├── 02-transformer-list.jpg
+    ├── 03-transformer-details.jpg
+    ├── 04-location-navigation.jpg
+    ├── 05-transformer-map.jpg
+    ├── 06-inspection-form.jpg
+    ├── 07-installation-location-list.jpg
+    ├── 08-inspection-report.jpg
+    └── 09-transformer-dashboard.jpg
+```
+
+## Project Type
+
+**Internship Project — Data Management & Application Development**
+
+โปรเจกต์นี้พัฒนาขึ้นระหว่างการฝึกงาน เพื่อประยุกต์ใช้การจัดการข้อมูลและการพัฒนาแอปพลิเคชันสำหรับสนับสนุนการจัดเก็บ ตรวจสอบ และติดตามข้อมูลหม้อแปลงไฟฟ้า
+
+> **Note:** ข้อมูลภายในหน่วยงาน ข้อมูลพิกัด และข้อมูลที่มีความละเอียดอ่อนถูกนำออกหรือปกปิดก่อนนำมาใช้เพื่อแสดงผลงานใน Portfolio
