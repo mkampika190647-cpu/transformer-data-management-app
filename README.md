@@ -128,7 +128,7 @@
 ตัวอย่างรายงานผลการตรวจสอบและบำรุงรักษาหม้อแปลงที่สร้างจากข้อมูลที่บันทึกในระบบ
 
 <p align="center">
-  <img src="screenshots/08-inspection-report.jpg" width="500" alt="Inspection Report">
+  <img src="screenshots/08-inspection-report.jpg" width="300" alt="Inspection Report">
 </p>
 
 ### 9. Transformer Dashboard
@@ -136,7 +136,7 @@
 Dashboard สำหรับสรุปและแสดงข้อมูลหม้อแปลง เช่น ลักษณะการติดตั้ง และข้อมูลจำแนกตามผลิตภัณฑ์หรือยี่ห้อ
 
 <p align="center">
-  <img src="screenshots/09-transformer-dashboard.jpg" width="500" alt="Transformer Dashboard">
+  <img src="screenshots/09-transformer-dashboard.jpg" width="300" alt="Transformer Dashboard">
 </p>
 
 ## Project Structure
