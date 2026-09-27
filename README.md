@@ -71,73 +71,43 @@
 
 แสดงรายการหน่วยงานสำหรับจัดกลุ่มและค้นหาข้อมูลหม้อแปลงตามหน่วยงานที่รับผิดชอบ
 
-<p align="center">
-  <img src="screenshots/01-organization-list.jpg" width="300" alt="Organization List">
-</p>
-
 ### 2. Transformer List
 
 แสดงรายการหม้อแปลง พร้อมข้อมูลเบื้องต้น เช่น ขนาดหม้อแปลง ตำแหน่งติดตั้ง และหน่วยงานที่รับผิดชอบ
-
-<p align="center">
-  <img src="screenshots/02-transformer-list.jpg" width="300" alt="Transformer List">
-</p>
 
 ### 3. Transformer Details
 
 แสดงรายละเอียดของหม้อแปลง เช่น รูปภาพ หน่วยงานที่รับผิดชอบ พิกัด GPS กำลังหม้อแปลง และข้อมูลการติดตั้ง
 
-<p align="center">
-  <img src="screenshots/03-transformer-details.jpg" width="300" alt="Transformer Details">
-</p>
 
 ### 4. Location Navigation
 
 แสดงการนำทางจากตำแหน่งปัจจุบันไปยังพื้นที่ติดตั้งหม้อแปลงผ่าน Google Maps
 
-<p align="center">
-  <img src="screenshots/04-location-navigation.jpg" width="300" alt="Location Navigation">
-</p>
 
 ### 5. Transformer Map
 
 แสดงตำแหน่งหม้อแปลงบนแผนที่ เพื่อช่วยในการค้นหาและตรวจสอบตำแหน่งของหม้อแปลงในพื้นที่
 
-<p align="center">
-  <img src="screenshots/05-transformer-map.jpg" width="300" alt="Transformer Map">
-</p>
 
 ### 6. Inspection Form
 
 แบบฟอร์มดิจิทัลสำหรับบันทึกข้อมูลการตรวจสอบหม้อแปลงและข้อมูลที่เกี่ยวข้องผ่านโทรศัพท์มือถือ
 
-<p align="center">
-  <img src="screenshots/06-inspection-form.jpg" width="300" alt="Inspection Form">
-</p>
 
 ### 7. Installation Location List
 
 แสดงรายการตำแหน่งติดตั้ง เพื่อช่วยค้นหาและเลือกหม้อแปลงตามพื้นที่หรือจุดติดตั้ง
 
-<p align="center">
-  <img src="screenshots/07-installation-location-list.jpg" width="300" alt="Installation Location List">
-</p>
 
 ### 8. Inspection Report
 
 ตัวอย่างรายงานผลการตรวจสอบและบำรุงรักษาหม้อแปลงที่สร้างจากข้อมูลที่บันทึกในระบบ
 
-<p align="center">
-  <img src="screenshots/08-inspection-report.jpg" width="300" alt="Inspection Report">
-</p>
-
 ### 9. Transformer Dashboard
 
 Dashboard สำหรับสรุปและแสดงข้อมูลหม้อแปลง เช่น ลักษณะการติดตั้ง และข้อมูลจำแนกตามผลิตภัณฑ์หรือยี่ห้อ
 
-<p align="center">
-  <img src="screenshots/09-transformer-dashboard.jpg" width="300" alt="Transformer Dashboard">
-</p>
 
 ## Project Structure
 
